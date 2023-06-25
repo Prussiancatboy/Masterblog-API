@@ -5,6 +5,7 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET'])
 def home():
+    """This code just handles the front end"""
     return render_template("index.html")
 
 

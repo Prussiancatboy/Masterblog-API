@@ -22,6 +22,7 @@ def fetch_post_by_id(post_id):
     else:
         return None, None
 
+
 def update_storage(data):
     """This code updates the data.json file"""
     with open('data.json', 'w') as file:
